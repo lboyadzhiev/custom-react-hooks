@@ -1,0 +1,23 @@
+What & Why?
+
+    What is custom hook: 
+
+        Outsource stateful loin into re-usable functions.
+
+    Why:
+
+        Unlike 'regular functions', custom hooks can use other React hooks and React state.
+
+    
+
+Building a Custom Hook
+
+    We will start by creating a 'hooks' folder next to components folder, and in ther we can create our hooks files - ex 'use-counter.js';
+    The name of the file depends on us, but we follow a rule, to be exactly as a fucntion that we will create inside the file, and the functions inside MUST start with 'useCounter';
+
+
+    !!!! If we use a custom hook in multiple components, every comonent will received it's own state.
+
+    Custom hooks can receive an arguments, and in this way we can do it reusable.
+
+Custom Hook best practises
